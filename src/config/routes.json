@@ -1,0 +1,17 @@
+[
+    {
+        "name": "address",
+        "path": "/users/:userId/addresses",
+        "mocks": [
+            {
+                "default": false,
+                "type": "POST",
+                "status":200,
+                "file": "address/getAddress.json",
+                "headers": [
+                    { "key":"Content-Type", "value":"application/json" }
+                ]
+            }
+        ]
+    }
+]
